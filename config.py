@@ -8,9 +8,9 @@ load_dotenv()
 API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH", "")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-OWNER_USERNAME = getenv("OWNER_USERNAME","sexydrifter")
-BOT_USERNAME = getenv("BOT_USERNAME" , "DolbyMusicRobot")
-BOT_NAME = getenv("BOT_NAME" , "DolbyAtoms")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Tgdevil9")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Aarohi_X_Music_Bot")
+BOT_NAME = getenv("BOT_NAME" , "Aarohi_X_Music_Bot")
 ASSUSERNAME = getenv("ASSUSERNAME" , "")
 BASE_URL = getenv("BASE_URL", "https://babiesiq.tech")
 #API_KEY = getenv("API_KEY", "")
@@ -27,7 +27,7 @@ try:
 except (ValueError, TypeError):
     LOGGER_ID = 0
 
-OWNER_ID = int(getenv("OWNER_ID", ""))
+OWNER_ID = int(getenv("OWNER_ID", "8888187146"))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 UPSTREAM_REPO = getenv(
@@ -36,8 +36,8 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None) or getenv("GITHUB_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "http://t.me/textables")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "http://t.me/textables")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FeelingsXyz")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+VOKrHOXrPcQ3ZmU1")
 SOURCE = getenv("SOURCE", "https://t.me/sexydrifter")
 CHAT = getenv("CHAT", "")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
